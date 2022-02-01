@@ -6,12 +6,12 @@ from twilio.rest import Client
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-account_sid = "AC5856fb01d4e44ed6e300506e63a76aef"
-auth_token  = "53676d199cf40eca1ce19ed368af27df"
+account_sid = "**************"
+auth_token  = "***************"
 
 ## STEP 1: Use https://www.alphavantage.co
 # When STOCK price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
-ALPHAVANTAGE_API_KEY = "DO2MFHAHTEXKVWX8"
+ALPHAVANTAGE_API_KEY = "*************"
 parameters_alphavantage = {
     "function":"TIME_SERIES_DAILY",
     "symbol":STOCK,
@@ -34,7 +34,7 @@ percentage_change = math.fabs(the_day_closing_data-last_day_closing_data)/last_d
 if percentage_change<=5:
     ## STEP 2: Use https://newsapi.org
     # Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME. 
-    NEWS_API = "44aaab92802c4c43906aafcab62dc8af"
+    NEWS_API = "************************"
     
     new_parameters = {
         "q":COMPANY_NAME,
