@@ -9,3 +9,4 @@ API used in this projects are:-
 - **alphavantage**( https://www.alphavantage.co):-For getting the updated everyday stock price of the company.
 
 Below shown is a glimpse of the alert notification:-
+![WhatsApp Image 2022-06-04 at 4 55 53 PM](https://user-images.githubusercontent.com/93373968/172552282-7cf412d4-1826-4d0b-88a4-91540e5c4d5d.jpeg)
